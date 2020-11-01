@@ -37,6 +37,10 @@ make install
 ```
 Then change --with-openssl-dir=/usr/include/openssl to --with-openssl-dir=/usr/local/sslold and compile.
 
+
+##
+https://clouding.io/hc/es/articles/360011546139-VestaCP-con-diferentes-versiones-de-PHP
+
 ## Compiling PHP Packages with needed Modules
 You don't need to install all Versions, just choose that Version you want to have installed.
 ```bash
