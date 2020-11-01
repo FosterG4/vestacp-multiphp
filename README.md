@@ -93,34 +93,34 @@ service apache2 restart
 You can do this also manualy, just copy the phpcgi.stpl, phpcgi.tpl and phpcgi.sh files in your VestaCP Template folder and modify the yourname.sh file to your needed configuration. Please do only download the Tempaltes for installed PHP Versions.
 ```bash
 # PHP 5.3
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php53.sh -O /usr/local/vesta/data/templates/web/apache2/php53.sh
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php53.tpl
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php53.stpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php53.sh -O /usr/local/vesta/data/templates/web/apache2/php53.sh
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php53.tpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php53.stpl
 
 # PHP 5.4
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php54.sh -O /usr/local/vesta/data/templates/web/apache2/php54.sh
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php54.tpl
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php54.stpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php54.sh -O /usr/local/vesta/data/templates/web/apache2/php54.sh
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php54.tpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php54.stpl
 
 # PHP 5.5
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php55.sh -O /usr/local/vesta/data/templates/web/apache2/php55.sh
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php55.tpl
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php55.stpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php55.sh -O /usr/local/vesta/data/templates/web/apache2/php55.sh
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php55.tpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php55.stpl
 
 # PHP 5.6
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php56.sh -O /usr/local/vesta/data/templates/web/apache2/php56.sh
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php56.tpl
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php56.stpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php56.sh -O /usr/local/vesta/data/templates/web/apache2/php56.sh
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php56.tpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php56.stpl
 
 # PHP 7.0
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php70.sh -O /usr/local/vesta/data/templates/web/apache2/php70.sh
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php70.tpl
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php70.stpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php70.sh -O /usr/local/vesta/data/templates/web/apache2/php70.sh
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php70.tpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php70.stpl
 
 # PHP 7.0
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php71.sh -O /usr/local/vesta/data/templates/web/apache2/php71.sh
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php71.tpl
-wget http://git.scit.ch/rs/VestaCP-MultiPHP/raw/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php71.stpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php71.sh -O /usr/local/vesta/data/templates/web/apache2/php71.sh
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.tpl -O /usr/local/vesta/data/templates/web/apache2/php71.tpl
+wget https://raw.githubusercontent.com/FosterG4/vestacp-multiphp/master/php.stpl -O /usr/local/vesta/data/templates/web/apache2/php71.stpl
 
 # Update Owner and Permissions
 chmod 755 /usr/local/vesta/data/templates/web/apache2/*
